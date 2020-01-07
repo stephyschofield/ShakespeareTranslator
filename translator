@@ -1,11 +1,4 @@
-# Shakespearean Translator
-# Stephanie Schofield
-# September 23, 2018
-#
-# Simple Shakespearean to Modern English dictionary. Prints translation when given user input of Shakespearean word.
-# Words and definitions from >>> reference.yourdictionary.com/translation/shakespeare-translator.html
-
-def shakespeare_word():
-    s_word = input("Hello! Welcome to the Shakespeare to Modern English Translator!\nWhat word would you like to translate?  ")
-    s_word = s_word.lower()
-    return s_word
+def hello():
+    print("hello world!)
+    
+hello()
